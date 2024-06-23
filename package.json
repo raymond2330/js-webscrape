@@ -1,0 +1,19 @@
+{
+  "name": "webscrape",
+  "version": "1.0.0",
+  "main": "webscrape.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "google-search-results-nodejs": "^2.1.0",
+    "playwright": "^1.44.1",
+    "puppeteer": "^22.12.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
