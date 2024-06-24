@@ -11,6 +11,11 @@ let scrape = async () => {
 
     await page.waitForSelector('.jJc9Ad');
 
+    const readMoreButtons = await page.$$('.w8nwRe.kyuRq');
+    for (const button of readMoreButtons) {
+      await button.click();
+    }
+
     const reviews = await page.evaluate(() => {
       const reviewElements = document.querySelectorAll('.jJc9Ad');
       const reviews = [];
